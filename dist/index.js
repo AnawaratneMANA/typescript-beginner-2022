@@ -1,3 +1,4 @@
 "use strict";
-let age = 20;
+let mySize = 5;
+console.log(mySize);
 //# sourceMappingURL=index.js.map

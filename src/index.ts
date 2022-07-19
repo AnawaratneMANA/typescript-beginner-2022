@@ -1,5 +1,3 @@
-let user: [number, string] = [1, "Akash"] 
-user.push(1) //Bug
-console.log(user)
-// Can't assign more 
-// values or any other types
+const enum Size { Small = 1, Medium = 4, Large}
+let mySize: Size = Size.Large
+console.log(mySize)
