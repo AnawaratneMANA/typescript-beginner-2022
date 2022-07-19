@@ -4,3 +4,7 @@ let is_published: boolean = true; // Boolean type.
 let level; // Type will be any, 
 
 // Any is like JS, Avoid using as much as possible.
+
+function render (document: any){
+    console.log(document)
+}
